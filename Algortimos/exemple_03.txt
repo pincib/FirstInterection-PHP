@@ -1,0 +1,31 @@
+Exemplo de um algoritmo simple de cadastro de informações:
+
+--- Formulário de Cadastro ---
+** Formulário enviado **
+
+{
+    1- Email correto?
+        Se estiver
+        {
+            2- Nome correto?
+                Se estiver
+                {
+                    3- CPF correto?
+                        Se estiver
+                        {
+                            FORMULÁRIO REGISTRADO COM SUCESSO!!
+                        }
+                        Se não estiver
+                        {
+                            CPF inválido.
+                        }
+                }
+                Se não estiver
+                {
+                    Nome inválido.
+                }
+        }Se não estiver
+        {
+            E-mail inválido.
+        }
+}
