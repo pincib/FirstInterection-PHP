@@ -6,6 +6,12 @@
 </head>
 <body>
 
+    <h1>
+        <?php
+        echo "testing this shit!";
+        ?>
+    </h1>
+
     <p>
         <?php
         echo "Hello world";
