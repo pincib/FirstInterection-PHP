@@ -1,0 +1,65 @@
+Modulo 00: Algoritmos
+
+Exemplo de um algoritmo simple de cadastro de informacoes:
+
+--- Formulário de Cadastro ---
+** Formulário enviado **
+
+{
+    1- Email correto?
+        Se estiver
+        {
+            2- Nome correto?
+                Se estiver
+                {
+                    3- CPF correto?
+                        Se estiver
+                        {
+                            FORMULARIO REGISTRADO COM SUCESSO!!
+                        }
+                        Se nao estiver
+                        {
+                            CPF invalido.
+                        }
+                }
+                Se nao estiver
+                {
+                    Nome invalido.
+                }
+        }Se nao estiver
+        {
+            E-mail invalido.
+        }
+}
+
+Módulo 01: PHP basico
+
+- Server variable: informações que o próprio servidor disponibiliza.
+    -ex.: echo $_SERVER['SERVER_NAME']; vai mostrar o nome do servidor.
+
+- print_r(): mostra o conteúdo de uma variável em formato de array.
+    -ex.: print_r($_SERVER); vai mostrar todas as variáveis do servidor.
+        echo '<pre>';
+        print_r($_SERVER);
+        echo '</pre>';
+        organizando a saída em um bloco de código.
+
+- $XXXX = ''; cria-se uma variável
+    ex.: $name = 'Bernardo';
+         echo $name; vai mostrar o valor da variável.
+
+- Booleans: valores verdadeiro ou falso.
+    -ex.: $isValid = true;
+         echo $isValid; vai mostrar o valor da variável.
+
+- Constants: valores que não podem ser alterados durante a execução do programa.
+    -ex.: define('PI', 3.14);
+         echo PI; vai mostrar o valor da constante.
+
+- Arrays: estruturas de dados que armazenam uma coleção de valores.
+    -ex.: $fruits = ['apple', 'banana', 'orange'];
+         echo $fruits[0]; vai mostrar o valor do primeiro item do array.
+
+- Concatenation: operador que une duas ou mais strings.
+    -ex.: $name = 'Bernardo';
+         echo 'Olá, ' . $name; vai mostrar 'Olá, Bernardo'.
