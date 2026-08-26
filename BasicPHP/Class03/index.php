@@ -1,3 +1,4 @@
+
 <?php
     /*String*/
     $name = 'Bernardo';
@@ -7,4 +8,4 @@
     $age = 20;
     echo '<br/>Minha idade é ';
     echo $age;
-?>
+/* não deve ter um ?> no final do  código */
