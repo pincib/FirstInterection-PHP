@@ -5,18 +5,19 @@
     <meta charset="utf-8">
 </head>
 <body>
-
-    <h1>
+<!--1° forma de mudar a cor da variável-->
+    <h1 style="color:white">
         <?php
-        echo "testing this shit!";
+        $name = 'Bernardo';
+        echo $name;
         ?>
     </h1>
-
-    <p>
+<!--2° forma de mudar a cor da variável-->
+    <h4>
         <?php
-        echo "Hello world";
+        echo 'My name is <h4 style="color:white">' . $name . '</h4>';
         ?>
-    </p>
+    </h4>
 
 </body>
 
