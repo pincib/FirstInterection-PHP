@@ -122,7 +122,7 @@
         IMPORTANTE: a classe do container PRECISA ser "container-exemplos".
         Foi essa a classe que definimos no <style> lá em cima com display: flex,
         que é o que faz as duas divs (GET e POST) ficarem uma do lado da outra.
-        Antes estava "container", que não tinha estilo nenhum por isso elas
+        Antes estava "containprogressr", que não tinha estilo nenhum por isso elas
         ficavam empilhadas uma embaixo da outra.
     -->
     <div class="container-exemplos">
